@@ -1,0 +1,21 @@
+{
+  "name": "tedunodejs",
+  "version": "1.0.0",
+  "description": "TEDU Nodejs course ",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.0.0"
+  },
+  "scripts": {
+    "test": "node main.js"
+  },
+  "keywords": [
+    "tedu",
+    "nodejs"
+  ],
+  "author": "ToanBN",
+  "license": "MIT"
+}
