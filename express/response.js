@@ -4,8 +4,9 @@ var app = express();
 
 //http://localhost:8000/
 app.get('/', function (req, res) {
-    req.accepts('text/html');
-    res.send(req.protocol);
+   res.cookie('sample','test res cookie');
+   //res.send('This is sample');
+   res.redirect('http://tedu.com.vn')
 });
 
 var server = app.listen(8000, function () {
